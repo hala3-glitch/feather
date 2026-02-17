@@ -815,38 +815,35 @@ Feather:Run(script)</code></pre>
                 <p class="text-gray-400 text-sm">Select your account to continue</p>
             </div>
             
-            <div class="grid grid-cols-3 gap-4 mb-8">
-                <div class="owner-card glass rounded-xl p-4 border border-white/10 text-center" onclick="selectOwner('htyb')">
-                    <div class="w-12 h-12 rounded-full bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center mx-auto mb-3 text-sm font-bold">H</div>
-                    <div class="font-semibold text-sm">htyb</div>
-                    <div class="text-xs text-gray-500 mt-1">Owner</div>
-                </div>
-				
-				<div class="grid grid-cols-3 gap-4 mb-8">
-                <div class="owner-card glass rounded-xl p-4 border border-white/10 text-center" onclick="selectOwner(luvava)">
-                    <div class="w-12 h-12 rounded-full bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center mx-auto mb-3 text-sm font-bold">H</div>
-                    <div class="font-semibold text-sm">htyb</div>
-                    <div class="text-xs text-gray-500 mt-1">Owner</div>
-                </div>
-                
-                <div class="owner-card glass rounded-xl p-4 border border-white/10 text-center" onclick="selectOwner('mya')">
-                    <div class="w-12 h-12 rounded-full bg-gradient-to-br from-purple-500 to-purple-700 flex items-center justify-center mx-auto mb-3 text-sm font-bold">M</div>
-                    <div class="font-semibold text-sm">mya</div>
-                    <div class="text-xs text-gray-500 mt-1">Owner</div>
-                </div>
-                
-                <div class="owner-card glass rounded-xl p-4 border border-white/10 text-center" onclick="selectOwner('veln')">
-                    <div class="w-12 h-12 rounded-full bg-gradient-to-br from-emerald-500 to-emerald-700 flex items-center justify-center mx-auto mb-3 text-sm font-bold">V</div>
-                    <div class="font-semibold text-sm">veln</div>
-                    <div class="text-xs text-gray-500 mt-1">Owner</div>
-                </div>
-            </div>
-            
-            <button onclick="closeOwnerModal()" class="w-full py-3 border border-white/20 text-gray-400 rounded-lg hover:bg-white/5 transition-colors text-sm">
-                Cancel
-            </button>
-        </div>
+           <div class="grid grid-cols-3 gap-4 mb-8">
+    <div class="owner-card glass rounded-xl p-4 border border-white/10 text-center" onclick="selectOwner('htyb')">
+        <div class="w-12 h-12 rounded-full bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center mx-auto mb-3 text-sm font-bold">H</div>
+        <div class="font-semibold text-sm">htyb</div>
+        <div class="text-xs text-gray-500 mt-1">Owner</div>
     </div>
+    
+    <div class="owner-card glass rounded-xl p-4 border border-white/10 text-center" onclick="selectOwner('luvava')">
+        <div class="w-12 h-12 rounded-full bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center mx-auto mb-3 text-sm font-bold">L</div>
+        <div class="font-semibold text-sm">luvava</div>
+        <div class="text-xs text-gray-500 mt-1">Owner</div>
+    </div>
+    
+    <div class="owner-card glass rounded-xl p-4 border border-white/10 text-center" onclick="selectOwner('mya')">
+        <div class="w-12 h-12 rounded-full bg-gradient-to-br from-purple-500 to-purple-700 flex items-center justify-center mx-auto mb-3 text-sm font-bold">M</div>
+        <div class="font-semibold text-sm">mya</div>
+        <div class="text-xs text-gray-500 mt-1">Owner</div>
+    </div>
+    
+    <div class="owner-card glass rounded-xl p-4 border border-white/10 text-center" onclick="selectOwner('veln')">
+        <div class="w-12 h-12 rounded-full bg-gradient-to-br from-emerald-500 to-emerald-700 flex items-center justify-center mx-auto mb-3 text-sm font-bold">V</div>
+        <div class="font-semibold text-sm">veln</div>
+        <div class="text-xs text-gray-500 mt-1">Owner</div>
+    </div>
+</div>
+
+<button onclick="closeOwnerModal()" class="w-full py-3 border border-white/20 text-gray-400 rounded-lg hover:bg-white/5 transition-colors text-sm">
+    Cancel
+</button>
 
     <!-- Owner Login Modal (Step 2) -->
     <div id="ownerLoginModal" class="modal fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm">
