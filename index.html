@@ -821,6 +821,13 @@ Feather:Run(script)</code></pre>
                     <div class="font-semibold text-sm">htyb</div>
                     <div class="text-xs text-gray-500 mt-1">Owner</div>
                 </div>
+				
+				<div class="grid grid-cols-3 gap-4 mb-8">
+                <div class="owner-card glass rounded-xl p-4 border border-white/10 text-center" onclick="selectOwner(luvava)">
+                    <div class="w-12 h-12 rounded-full bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center mx-auto mb-3 text-sm font-bold">H</div>
+                    <div class="font-semibold text-sm">htyb</div>
+                    <div class="text-xs text-gray-500 mt-1">Owner</div>
+                </div>
                 
                 <div class="owner-card glass rounded-xl p-4 border border-white/10 text-center" onclick="selectOwner('mya')">
                     <div class="w-12 h-12 rounded-full bg-gradient-to-br from-purple-500 to-purple-700 flex items-center justify-center mx-auto mb-3 text-sm font-bold">M</div>
@@ -1099,6 +1106,7 @@ Feather:Run(script)</code></pre>
         // Owner credentials (16 char passwords)
         const OWNERS = {
             'htyb': { password: 'HtybSecure2024!!', color: 'from-blue-500 to-blue-700', initial: 'H' },
+			'luvava': { password: 'luvavaishim12321', color: 'from-blue-500 to-blue-700', initial: 'H' },
             'mya': { password: 'MyaSecurePass123', color: 'from-purple-500 to-purple-700', initial: 'M' },
             'veln': { password: 'VelnPass2024!!!', color: 'from-emerald-500 to-emerald-700', initial: 'V' }
         };
